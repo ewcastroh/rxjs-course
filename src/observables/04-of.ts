@@ -1,8 +1,14 @@
+/**
+ * Documentation
+ * https://rxjs.dev/api/index/function/of
+ */
+
 import { of } from "rxjs";
 
 // const observable$ = of(1, 2, 3, 4, 5, 6);
 // const observable$ = of(...[1, 2, 3, 4, 5, 6]);
 // const observable$ = of([1, 2], {a:1, b:2}, function(){}, true, Promise.resolve(true));
+// Sync method
 const observable$ = of(...[1, 2, 3, 4, 5, 6], 2, 3, 4, 5, 6);
 
 console.log('Starting observable$');

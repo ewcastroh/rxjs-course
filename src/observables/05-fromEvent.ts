@@ -1,3 +1,8 @@
+/**
+ * Documentation
+ * https://rxjs.dev/api/index/function/fromEvent
+ */
+
 import { fromEvent } from "rxjs";
 
 /**

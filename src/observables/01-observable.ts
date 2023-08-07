@@ -1,3 +1,9 @@
+/**
+ * Documentation
+ * https://rxjs.dev/api/index/class/Observable
+ * https://rxjs.dev/api/index/interface/Observer
+ */
+
 import { Observable, Observer } from "rxjs";
 
 // Uncommon way to create a new Observable

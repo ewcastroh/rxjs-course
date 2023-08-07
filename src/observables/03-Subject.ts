@@ -1,3 +1,8 @@
+/**
+ * Documentation
+ * https://rxjs.dev/api/index/class/Subject
+ */
+
 import { Observable, Observer, Subject, Subscription } from "rxjs";
 
 const observer: Observer<any> = {
