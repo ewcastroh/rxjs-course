@@ -3,7 +3,7 @@
  * https://rxjs.dev/api/index/function/distinctUntilChanged
  * Returns a result Observable that emits all values pushed by the source observable if they are distinct in comparison to the last value the result observable emitted.
  */
-import { distinct, distinctUntilChanged, from, of } from 'rxjs';
+import { distinctUntilChanged, from, of } from 'rxjs';
 
 const numbers$ = of(1, 1, 1, 3, 3, 4, 2, 2, 5, 6, 1, 1);
 numbers$
