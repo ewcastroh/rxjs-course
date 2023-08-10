@@ -5,7 +5,6 @@
  */
 
 import { concat, interval, of, take } from 'rxjs';
-import { pipe } from 'rxjs';
 
 const interval$ = interval(1000);
 
